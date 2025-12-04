@@ -1,0 +1,30 @@
+body { font-family: Arial, sans-serif; margin: 28px; }
+h1 { color: #1b6ca8; }
+.flashes { color: red; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
+.field { display:flex; flex-direction: column; }
+label { font-weight: 600; margin-bottom: 6px; }
+input { padding: 8px; border: 1px solid #ddd; border-radius: 6px; }
+button { margin-top: 12px; padding: 8px 14px; background: #1b6ca8; color: white; border: none; border-radius: 6px; }
+
+.card-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    width: 40%;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background: #e2edf8;
+    transform: scale(1.03);
+}
