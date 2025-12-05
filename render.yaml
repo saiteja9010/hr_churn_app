@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: hr-churn-app
+    env: python
+    region: singapore
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
+    envVars:
+      PYTHON_VERSION: 3.12
