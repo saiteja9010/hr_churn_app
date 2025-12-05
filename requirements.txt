@@ -1,7 +1,8 @@
-Flask==2.2.5
+Flask
 pandas
-numpy
-joblib
 scikit-learn
+joblib
 matplotlib
 seaborn
+numpy
+gunicorn
